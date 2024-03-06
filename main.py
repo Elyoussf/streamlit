@@ -47,7 +47,8 @@ def charger_distances(nom_fichier):
 
 # Exemple d'utilisation
 if __name__ == "__main__":
-    fichier_distances = "Classeur1.xlsx"
+    fichier_distances = input("entrer le lien vers le fichier")
+    
     distances = charger_distances(fichier_distances)
     if distances is not None:
         n = len(distances)
